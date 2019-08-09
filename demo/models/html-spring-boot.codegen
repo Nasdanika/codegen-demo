@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.codegen:ResourceGroup xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.codegen="urn:org.nasdanika.codegen" title="HTML Spring Boot Application" description="Spring boot application which uses [Nasdanika HTML](https://www.nasdanika.org/home/products/html/index.html) for generating pages.">
+  <elements xsi:type="org.nasdanika.codegen:TextFile" name="pom.xml">
+    <generators xsi:type="org.nasdanika.codegen:TextContentReference" title="Template" ref="../templates/pom.xml" interpolate="true"/>
+  </elements>
+</org.nasdanika.codegen:ResourceGroup>

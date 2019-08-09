@@ -1,0 +1,68 @@
+<project>
+ 
+  <publishDate position="right"/>
+  <version position="right"/>
+  
+  <body>
+ 
+    <breadcrumbs>
+      <item name="Nasdanika" href="../../index.html"/>
+      <item name="Codegen" href="index.html"/>
+    </breadcrumbs>
+ 
+   <menu name="Main">
+      <item name="Overview" href="index.html" />
+      <!--<item name="Developer guide" href="developer-guide/index.html" />-->
+      <item name="Model Documentation" href="model-doc/index.html" />
+      <item name="Project information" href="project-info.html" />      
+   </menu>
+   
+   <!--
+   <menu name="User Guide">
+      <item name="Code generation wizards" href="user-guide/code-generation-wizards.html" />
+      <item name="Multi-form model editors" href="user-guide/multi-form-model-editors.html" />
+      <item name="Creating a model-driven code generator" href="user-guide/creating-model-driven-code-generator.html" />
+   </menu>
+   -->  
+
+   <menu name="Java API">
+      <item name="Model" href="apidocs/org.nasdanika.codegen/index.html" />
+      <item name="Edit" href="apidocs/org.nasdanika.codegen.edit/index.html" />
+      <item name="Editor" href="apidocs/org.nasdanika.codegen.editor/index.html" />
+   </menu>
+
+   <menu name="Issues">
+      <item name="Roadmap" href="../../../mantis/roadmap_page.php?project_id=4" />
+      <item name="All" href="../../../mantis/view_all_bug_page.php?project_id=4" />
+      <item name="Change Log" href="../../../mantis/changelog_page.php?project_id=4" />
+   </menu>
+ 
+   <footer>
+	Build ${env.CIRCLE_BUILD_NUM}.${env.CIRCLE_BRANCH}.${env.CIRCLE_SHA1} 
+	&nbsp;&bull;&nbsp;
+	All rights reserved
+   </footer>
+ 
+  </body>    
+ 
+  <skin>
+    <groupId>org.apache.maven.skins</groupId>
+    <artifactId>maven-fluido-skin</artifactId>
+    <version>1.7</version>
+  </skin>
+  
+  <custom>
+    <fluidoSkin>
+      <gitHub>
+        <projectId>nasdanika/codegen</projectId>
+        <ribbonOrientation>right</ribbonOrientation>
+        <ribbonColor>gray</ribbonColor>
+      </gitHub>
+      <googleSearch>
+        <sitesearch>https://www.nasdanika.org/home/products/codegen</sitesearch>
+      </googleSearch>      
+    </fluidoSkin>
+  </custom>
+  
+ 
+</project>

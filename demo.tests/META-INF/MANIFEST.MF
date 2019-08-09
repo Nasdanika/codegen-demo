@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Codegen Demo Tests
+Bundle-SymbolicName: org.nasdanika.codegen.demo.tests;singleton:=true
+Bundle-Version: 0.2.0.qualifier
+Bundle-Vendor: Nasdanika LLC
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.junit,
+ org.eclipse.equinox.app;bundle-version="1.4.100",
+ org.nasdanika.codegen.demo;bundle-version="0.2.0"
+Automatic-Module-Name: org.nasdanika.html.tests
+Export-Package: org.nasdanika.codegen.demo.tests

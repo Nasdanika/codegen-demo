@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.nasdanika.codegen.demo.feature_0.2.0.qualifier.jar" id="org.nasdanika.codegen.demo.feature" version="0.2.0.qualifier">
+      <category name="org.nasdanika.tools.demo"/>
+   </feature>
+   <category-def name="org.nasdanika.tools" label="Tools Demo">
+      <description>
+         Demos of Nasdanika tools.
+      </description>
+   </category-def>
+</site>

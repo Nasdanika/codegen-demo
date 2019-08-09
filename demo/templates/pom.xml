@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.nasdanika.html</groupId>
+	<artifactId>spring-boot-demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>spring-boot-demo</name>
+	<description>Demo project for Spring Boot</description>
+	
+	<repositories>
+		<repository>
+			<id>nasdanika-html-snapshots</id>
+			<name>nasdanika-html-snapshots</name>
+			<url>https://www.nasdanika.org/home/products/html/maven-repository/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<layout>default</layout>
+		</repository>
+	</repositories>		
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.1.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.nasdanika.html</groupId>
+			<artifactId>org.nasdanika.html.app</artifactId>
+			<version>2.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.nasdanika.html</groupId>
+			<artifactId>org.nasdanika.html</artifactId>
+			<version>2.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.nasdanika.html</groupId>
+			<artifactId>org.nasdanika.html.bootstrap</artifactId>
+			<version>2.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.nasdanika.html</groupId>
+			<artifactId>org.nasdanika.html.jstree</artifactId>
+			<version>2.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.nasdanika.html</groupId>
+			<artifactId>org.nasdanika.html.knockout</artifactId>
+			<version>2.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.nasdanika.html</groupId>
+			<artifactId>org.nasdanika.html.fontawesome</artifactId>
+			<version>2.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-text</artifactId>
+		    <version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180130</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+
+</project>
