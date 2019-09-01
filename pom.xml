@@ -34,7 +34,7 @@
 			<layout>p2</layout>
 		</repository>
 		<repository>
-			<id>core</id>
+			<id>codegen</id>
 			<url>https://www.nasdanika.org/home/products/codegen/repository</url>
 			<layout>p2</layout>
 		</repository>
